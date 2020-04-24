@@ -43,7 +43,7 @@ If the requirements are installed
 ````
 If translateIT doesn't open press 'r' ( in the command line ) for the reload app or you can close the app and re-open.
 
-## Errors:
+## Possible errors:
 
 ### Error: Watchman needs your help:
 ````
