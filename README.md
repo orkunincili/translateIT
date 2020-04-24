@@ -5,8 +5,8 @@ The translateIT is a React Native mobile translate application.
 **1.** The Requirements<br>
 **2.** Installation for Ubuntu 18.04<br>
 **3.** Possible errors<br>
-3a. Error: Watchman needs your help<br>
-3b. Error: Activity class does not exist.<br>
+3a. **Error:** Watchman needs your help<br>
+3b. **Error:** Activity class does not exist.<br>
 **4.** Application screenshots<br>
 
 ## The Requirements
@@ -43,9 +43,9 @@ If the requirements are installed
 ````
 If translateIT doesn't open press 'r' ( in the command line ) for the reload app or you can close the app and re-open.
 
-### Errors:
+## Errors:
 
-## Error: Watchman needs your help:
+### Error: Watchman needs your help:
 ````
     watchmanResponse: {
     version: 'x.x.x',
@@ -80,7 +80,7 @@ After that you can use:
   npm start
 
 ````
-## Error: Activity class {com.translateit/com.translateit.MainActivity} does not exist.
+### Error: Activity class {com.translateit/com.translateit.MainActivity} does not exist.
 
 The values must be same in these locations:
 ````
@@ -89,8 +89,10 @@ android>app>src>main>java>com>app_name>MainActivity.java (package name)
 android>app>src>main>java>com>app_name>MainApplication.java (package name)
 android>app>src>main>AndroidManifest.xml (package)
 ````
+More info
+[/issues/14952](https://github.com/facebook/react/wiki/Sites-Using-React)
 
-**in-app screenshots**
+## Application screenshots
 
 <img src="screenshots/home_if_user_login.jpeg" width=200 heigth=400>
 <img src="screenshots/home_if_user_no_login.jpeg" width=200 heigth=400>
