@@ -5,16 +5,18 @@ translateIT is a React Native mobile translate application.
 ## Installation
 
 
-To the command line:
+**1)** To the command line:
 ````
     git clone https://github.com/orkunincili/translateIT.git
 ````
 
-Enable Developer Options after that you should enable USB debugging mode in your android device
+**2)** Enable Developer Options after that you should enable USB debugging mode in your android device
 
-Open the project(**(/translateIt/android)**) with Android Studio and plug your device the click 'Run'.
+**3)** Open the project**(/translateIt/android)** with Android Studio and plug your device. Your device name will appeart on top. 
 
-Go to the project directory and to the command line:
+**4)**The click 'Run'.
+
+**5)**Go to the project directory and to the command line:
 
 ````
     react-native run-android && npm start
