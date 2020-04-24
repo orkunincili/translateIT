@@ -89,7 +89,10 @@ android>app>src>main>java>com>app_name>MainActivity.java (package name)
 android>app>src>main>java>com>app_name>MainApplication.java (package name)
 android>app>src>main>AndroidManifest.xml (package)
 ````
-[More info] (https://github.com/facebook/react-native/issues/14952)
+
+[More info about this error](https://github.com/facebook/react-native/issues/14952)
+
+
 
 ## Application screenshots
 
